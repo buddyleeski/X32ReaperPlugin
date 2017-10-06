@@ -1,6 +1,8 @@
 /.vs/*
 /Debug/*
-/ipch/*
-/res/*
+/*/Debug/*
 /*/x64/*
 /x64/*
+/ipch/*
+/res/*
+/*.VC.db
