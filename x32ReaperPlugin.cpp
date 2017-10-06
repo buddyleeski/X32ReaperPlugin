@@ -7,8 +7,8 @@ using namespace std;
 
 #include "x32ReaperPlugin.h"
 #include "x32Client.h"
-#include "../reaper_plugin.h"
-#include "../reaper_plugin_functions.h"
+#include "reaper_plugin.h"
+#include "reaper_plugin_functions.h"
 #include <fstream>
 
 #define REG_FUNC(x,y) (*(void **)&x) = y->GetFunc(#x)
